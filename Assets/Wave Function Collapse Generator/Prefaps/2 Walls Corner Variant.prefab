@@ -47,25 +47,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6002c0a9a33ca744886b65821b4ed62, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ForwardNeighborState:
-    NeighborState: 2
-    RightNeighborState: 0
-    LeftNeighborState: 0
-  BackNeighborsState:
-    NeighborState: 1
-    RightNeighborState: 1
-    LeftNeighborState: 2
-  RightNeighborsState:
-    NeighborState: 2
-    RightNeighborState: 0
-    LeftNeighborState: 0
-  LeftNeighborsState:
-    NeighborState: 1
-    RightNeighborState: 2
-    LeftNeighborState: 1
+  ForwardNeighborState: 2
+  BackNeighborsState: 1
+  RightNeighborsState: 2
+  LeftNeighborsState: 1
   Weight: 100
   InteriorWeightMultiplier: 1
-  EdgeWeightMultiplier: 2
+  EdgeWeightMultiplier: 1
   AllowNeighborsColor: {r: 0, g: 1, b: 0, a: 1}
   DontCareNeighborsColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   DisallowNeighborsColor: {r: 1, g: 0, b: 0, a: 1}

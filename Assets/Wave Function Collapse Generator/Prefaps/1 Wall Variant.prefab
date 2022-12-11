@@ -46,22 +46,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6002c0a9a33ca744886b65821b4ed62, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ForwardNeighborState:
-    NeighborState: 2
-    RightNeighborState: 0
-    LeftNeighborState: 0
-  BackNeighborsState:
-    NeighborState: 1
-    RightNeighborState: 1
-    LeftNeighborState: 1
-  RightNeighborsState:
-    NeighborState: 1
-    RightNeighborState: 1
-    LeftNeighborState: 0
-  LeftNeighborsState:
-    NeighborState: 1
-    RightNeighborState: 0
-    LeftNeighborState: 1
+  ForwardNeighborState: 2
+  BackNeighborsState: 0
+  RightNeighborsState: 0
+  LeftNeighborsState: 0
   Weight: 100
   InteriorWeightMultiplier: 1
   EdgeWeightMultiplier: 1
