@@ -87,8 +87,6 @@ public class WaveFunctionCollapseGenerator : MonoBehaviour
 			CascadePossibilitiesCollapse(waveFunctionPossibilities, minPossibilitiesOption.Key, Vector2Int.down);
 			CascadePossibilitiesCollapse(waveFunctionPossibilities, minPossibilitiesOption.Key, Vector2Int.right);
 			CascadePossibilitiesCollapse(waveFunctionPossibilities, minPossibilitiesOption.Key, Vector2Int.left);
-			Debug.Log(minPossibilitiesOption.Key);
-			//return;
 		}
 	}
 
