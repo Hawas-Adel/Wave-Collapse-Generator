@@ -51,9 +51,8 @@ MonoBehaviour:
   BackNeighborsState: 2
   RightNeighborsState: 1
   LeftNeighborsState: 1
-  Weight: 100
-  InteriorWeightMultiplier: 1
-  EdgeWeightMultiplier: 1
+  InteriorWeight: 1
+  EdgeWeight: 1
   AllowNeighborsColor: {r: 0, g: 1, b: 0, a: 1}
   DontCareNeighborsColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   DisallowNeighborsColor: {r: 1, g: 0, b: 0, a: 1}

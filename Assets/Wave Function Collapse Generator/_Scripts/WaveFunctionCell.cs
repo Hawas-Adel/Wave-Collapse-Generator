@@ -59,9 +59,8 @@ public class WaveFunctionCell : MonoBehaviour
 
 	#region Weights
 	[Header("Weights")]
-	[Min(0f)] public float Weight = 100f;
-	[Min(0f)] public float InteriorWeightMultiplier = 1f;
-	[Min(0f)] public float EdgeWeightMultiplier = 1f;
+	[Min(0f)] public float InteriorWeight = 1f;
+	[Min(0f)] public float EdgeWeight = 1f;
 
 	public float GetWeight(Vector2Int cellPosition, Vector2Int gridSize, float rotation)
 	{
@@ -76,7 +75,7 @@ public class WaveFunctionCell : MonoBehaviour
 			}
 		}
 
-		return Weight * Mathf.Lerp(InteriorWeightMultiplier, EdgeWeightMultiplier, GetCellOffsetFromCenter(cellPosition, gridSize));
+		return Mathf.Lerp(InteriorWeight, EdgeWeight, GetCellOffsetFromCenter(cellPosition, gridSize));
 	}
 
 	private bool IsOnEdge(Vector2Int cellPosition, Vector2Int gridSize, out List<Vector3> edgeDirections)
